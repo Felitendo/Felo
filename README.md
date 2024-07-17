@@ -253,7 +253,7 @@ yarn serve
 
 ```
 docker build -t feloos .
-docker run -dp 3000:3000 --rm --name feloos feloos
+docker run -dp 3098:3000 --rm --name feloos feloos
 ```
 
 ##### Notes
