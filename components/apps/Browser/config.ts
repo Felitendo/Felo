@@ -17,8 +17,8 @@ export const DINO_GAME = {
 export const bookmarks: Bookmark[] = [
   {
     icon: FAVICON_BASE_PATH,
-    name: "daedalOS",
-    url: "https://dustinbrett.com/",
+    name: "FeloOS",
+    url: "https://felo.gg/",
   },
   {
     icon: "/System/Icons/Favicons/dir.webp",
