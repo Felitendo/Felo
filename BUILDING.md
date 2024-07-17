@@ -6,4 +6,4 @@ docker push ghcr.io/felitendo/felo:latest
 
 ON SERVER:
 
-docker run -d ghcr.io/felitendo/felo:latest -p 3098:3000
+use docker-compose.yml file

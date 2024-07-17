@@ -1,0 +1,12 @@
+services:
+  felobot-wa:
+    container_name: Felo
+    image: ghcr.io/felitendo/felo:latest
+    ports:
+      - 3098:3000
+    restart: unless-stopped
+    volumes:
+      - .:/code
+      - logvolume01:/var/log
+volumes:
+  logvolume01: {}
