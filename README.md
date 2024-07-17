@@ -1,4 +1,4 @@
-## 🌌 **FeloOS** 🌌
+## 🌌 **Felo** 🌌
 
 ## _All my Services/Apps/Projects put in a Desktop Environment_
 
