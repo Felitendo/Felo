@@ -252,8 +252,14 @@ yarn serve
 ##### Docker
 
 ```
-docker build -t feloos .
-docker run -dp 3098:3000 --rm --name feloos feloos
+docker build -t felo:latest .
+
+docker tag felo:latest ghcr.io/felitendo/felo:latest
+
+docker push ghcr.io/felitendo/felo:latest
+
+ON SERVER:
+use docker-compose.yml file
 ```
 
 ##### Notes
